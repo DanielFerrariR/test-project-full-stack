@@ -44,7 +44,7 @@ module.exports = {
     new CleanPlugin.CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       inject: true,
-      title: 'doctari test project',
+      title: 'test project',
       template: path.resolve(__dirname, 'public/index.html'),
       minify: {
         collapseWhitespace: true,

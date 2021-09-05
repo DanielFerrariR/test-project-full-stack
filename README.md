@@ -1,4 +1,4 @@
-# doctari test project
+# test project
 
 ## Description
 
@@ -30,4 +30,54 @@ We wish you success!
 
 ## Run the tool
 
-1. `yarn webpack` (watcher)
+1. `yarn dev` (watcher)
+
+<br />
+
+# Updated for the solution please follow the steps bellow
+
+1. **Create a .env file with the required variables:**
+
+```sh
+MAPS_API_KEY=
+```
+
+2. **Installs all dependendies**
+
+```sh
+$ yarn
+```
+
+3. **Start the webpack-dev-server**
+
+```sh
+yarn dev
+```
+
+4. **Commands**
+
+```bash
+# Runs for web production (needs yarn build first)
+
+$ yarn start
+
+# Runs for web development
+
+$ yarn dev
+
+# Builds for web (compiled to dist)
+
+$ yarn build
+
+# Checks eslint errors
+
+$ yarn lint
+
+# Fix eslint errors
+
+$ yarn lint:fix
+
+# Formats all files with prettier
+
+$ yarn format
+```
