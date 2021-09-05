@@ -1,0 +1,74 @@
+{
+  "results": [
+    {
+      "address_components": [
+        {
+          "long_name": "41063",
+          "short_name": "41063",
+          "types": ["postal_code"]
+        },
+        {
+          "long_name": "Nord",
+          "short_name": "Nord",
+          "types": ["political", "sublocality", "sublocality_level_1"]
+        },
+        {
+          "long_name": "Mönchengladbach",
+          "short_name": "MG",
+          "types": ["locality", "political"]
+        },
+        {
+          "long_name": "Mönchengladbach",
+          "short_name": "Mönchengladbach",
+          "types": ["administrative_area_level_3", "political"]
+        },
+        {
+          "long_name": "Düsseldorf",
+          "short_name": "Düsseldorf",
+          "types": ["administrative_area_level_2", "political"]
+        },
+        {
+          "long_name": "Nordrhein-Westfalen",
+          "short_name": "NRW",
+          "types": ["administrative_area_level_1", "political"]
+        },
+        {
+          "long_name": "Germany",
+          "short_name": "DE",
+          "types": ["country", "political"]
+        }
+      ],
+      "formatted_address": "41063 Mönchengladbach, Germany",
+      "geometry": {
+        "bounds": {
+          "northeast": {
+            "lat": 51.226049,
+            "lng": 6.463879599999999
+          },
+          "southwest": {
+            "lat": 51.1997014,
+            "lng": 6.3955093
+          }
+        },
+        "location": {
+          "lat": 51.2076921,
+          "lng": 6.4227663
+        },
+        "location_type": "APPROXIMATE",
+        "viewport": {
+          "northeast": {
+            "lat": 51.226049,
+            "lng": 6.463879599999999
+          },
+          "southwest": {
+            "lat": 51.1997014,
+            "lng": 6.3955093
+          }
+        }
+      },
+      "place_id": "ChIJNR34-n-ruEcRIIQlq_9gJxw",
+      "types": ["postal_code"]
+    }
+  ],
+  "status": "OK"
+}

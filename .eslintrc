@@ -13,6 +13,10 @@
     }
   },
   "rules": {
-    "global-require": "off"
+    "global-require": "off",
+    "no-await-in-loop": "off",
+    "no-loop-func": "off",
+    "no-restricted-syntax": "off",
+    "no-continue": "off"
   }
 }
