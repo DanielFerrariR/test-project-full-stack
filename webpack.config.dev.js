@@ -15,8 +15,10 @@ module.exports = {
   },
   devtool: 'source-map',
   devServer: {
+    historyApiFallback: true,
     contentBase: path.resolve(__dirname, 'dist'),
-    port: 3000
+    port: 3000,
+    hot: true
   },
   watchOptions: {
     ignored: ['/node_modules/']
@@ -24,6 +26,7 @@ module.exports = {
   resolve: {
     extensions: ['.js', '.jsx'],
     alias: {
+      'react-dom': '@hot-loader/react-dom',
       src: path.resolve(__dirname, 'src'),
       __mocks__: path.resolve(__dirname, '__mocks__')
     }

@@ -1,5 +1,10 @@
 {
   "parser": "babel-eslint",
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
   "env": {
     "browser": true
   },
@@ -13,10 +18,25 @@
     }
   },
   "rules": {
+    "react/jsx-filename-extension": [
+      1,
+      {
+        "extensions": [".js", ".jsx"]
+      }
+    ],
+    "import/extensions": [
+      1,
+      {
+        "js": "never",
+        "jsx": "never",
+        "json": "always"
+      }
+    ],
     "global-require": "off",
     "no-await-in-loop": "off",
     "no-loop-func": "off",
     "no-restricted-syntax": "off",
-    "no-continue": "off"
+    "no-continue": "off",
+    "react/no-array-index-key": "off"
   }
 }
